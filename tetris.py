@@ -19,7 +19,7 @@ pygame.display.set_caption("Tetris")
 
 # Initialize game components
 clock = pygame.time.Clock()
-board = TetrisBoard(WIDTH, HEIGHT)
+board = TetrisBoard(WIDTH, HEIGHT, 30)
 current_shape = get_random_shape()
 
 # Game loop
